@@ -1,0 +1,9 @@
+.DS_STORE
+*.bak
+*.log
+*.out
+node_modules
+.idea
+.vscode
+.sass-cache
+/dist
