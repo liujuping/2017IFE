@@ -1,4 +1,4 @@
-# CSS3实现3D 轮播图   [demo](http://liujuping.github.io/2017IFE/carousel/)
+# CSS3实现3D 轮播图   [demo](http://liujuping.github.io/2017IFE/carousel/index.html)
 
 ### 使用方法
 
