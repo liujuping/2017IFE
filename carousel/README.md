@@ -7,7 +7,9 @@
 @params options {Object} carousel参数对象
 
 @params options.el {String} 父元素的id值
+
 @params options.type {String} 展示的类型（目前只有图片） "imgs"
+
 @params options.imgs {Array} 轮播的图片的地址
 
 ### 使用方法
@@ -45,7 +47,7 @@ new Carousel({
 
 2、在舞台里面增加图片元素，图片层叠到一起，设置position: absolute
 
-3、给每个图片旋转一定的角度，角度的计算值：(rotate = 360 / img.length)
+3、给每个图片旋转一定的角度，角度的计算值：(rotate = 360 / imgs.length)
 
 4、这时候图片是重叠到一起的，我们要分开它们，只需要所有图片都往前移动一段距离
 
