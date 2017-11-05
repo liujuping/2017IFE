@@ -5,15 +5,19 @@
  */
 
 function Carousel(options) {
-  this.type = options.type
-  this.imgs = options.imgs
+  this.type = options.type || 'imgs'
+  this.imgs = options.imgs || []
   this.CarouselDOM = document.getElementById(options.el)
-  this.init()
+  if (!this.CarouselDOM) {
+    console.error('dom element is error, please change the el width valid element id')
+  } else {
+    this.init()
+  }
 }
 
 Carousel.prototype = {
   init: function() {
-    if (this.type === 'img') {
+    if (this.type === 'img' && this.imgs.length > 1) {
       // 静态设置
       // 图片之间的间隔距离
       this.imgSpace = 0.7
@@ -53,7 +57,7 @@ Carousel.prototype = {
     }, this.rotateTime)
   },
   // 旋转图片的方法，舞台每次旋转rotateY
-  rotateImage() {
+  rotateImage: function() {
     this.CarouselStageDOM.style = 'width: ' + this.width + 'px;transform: rotateY(' + this.rotateIndex * this.rotateY +'deg)'
     this.rotateIndex ++
   },

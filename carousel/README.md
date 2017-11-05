@@ -1,8 +1,18 @@
 # CSS3实现3D 轮播图   [demo](http://liujuping.github.io/2017IFE/carousel/index.html)
 
+## 原生插件：carousel
+
+### 参数说明
+
+@params options {Object} carousel参数对象
+
+@params options.el {String} 父元素的id值
+@params options.type {String} 展示的类型（目前只有图片） "imgs"
+@params options.imgs {Array} 轮播的图片的地址
+
 ### 使用方法
 
-html
+html 引用插件相关文件
 ```html
 <head>
   ...
@@ -15,7 +25,7 @@ html
 <script src="app.js"></script>
 </html>
 ```
-app.js
+app.js 使用插件
 ```javascript
 new Carousel({
   el: "carousel",
@@ -44,6 +54,8 @@ new Carousel({
 这时候只要计算r值就好了，（r = img.width / 2 / Math.tan( rotate / 360 * Math.PI)）
 
 5、让舞台旋转起来就好了，每次旋转的角度是rotate
+
+6、把功能抽出来，就实现了一个简单的轮播插件了！
 
 ### 参考链接
 
