@@ -1,5 +1,5 @@
 # 2017IFE
 
-### 部分demo
+### 部分 demo
 
-[CSS3实现3D 轮播图](http://liujuping.github.io/2017IFE/carousel/index.html)
+[CSS3 实现 3D 轮播图](http://liujuping.github.io/2017IFE/carousel/index.html)
