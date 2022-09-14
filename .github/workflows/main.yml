@@ -24,7 +24,7 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           # working-directory: packages/designer
-          files: ./clover.xml
+          files: ./clover.xml,./cobertura-coverage.xml,./junit.xml
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
           verbose: true

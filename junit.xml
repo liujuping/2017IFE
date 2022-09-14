@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="394" failures="0" errors="0" time="29.421">
+  <testsuite name="plugin 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="9.762" tests="23">
+    <testcase classname="plugin 测试 注册插件，插件参数生成函数能被调用，且能拿到正确的 ctx " name="plugin 测试 注册插件，插件参数生成函数能被调用，且能拿到正确的 ctx " time="0.023">
+    </testcase>
+    <testcase classname="plugin 测试 注册插件，调用插件 init 方法" name="plugin 测试 注册插件，调用插件 init 方法" time="0.004">
+    </testcase>
+    <testcase classname="plugin 测试 注册插件，调用 setDisabled 方法" name="plugin 测试 注册插件，调用 setDisabled 方法" time="0.004">
+    </testcase>
+    <testcase classname="plugin 测试 注册插件，调用 plugin.setDisabled 方法" name="plugin 测试 注册插件，调用 plugin.setDisabled 方法" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 删除插件，调用插件 destroy 方法" name="plugin 测试 删除插件，调用插件 destroy 方法" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 dependencies 依赖 dependencies 依赖" name="plugin 测试 dependencies 依赖 dependencies 依赖" time="0.005">
+    </testcase>
+    <testcase classname="plugin 测试 dependencies 依赖 dependencies 依赖 - string" name="plugin 测试 dependencies 依赖 dependencies 依赖 - string" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 dependencies 依赖 dependencies 依赖 - 兼容 dep" name="plugin 测试 dependencies 依赖 dependencies 依赖 - 兼容 dep" time="0.004">
+    </testcase>
+    <testcase classname="plugin 测试 dependencies 依赖 dependencies 依赖 - 兼容 dep &amp; string" name="plugin 测试 dependencies 依赖 dependencies 依赖 - 兼容 dep &amp; string" time="0.032">
+    </testcase>
+    <testcase classname="plugin 测试 version 依赖" name="plugin 测试 version 依赖" time="0.018">
+    </testcase>
+    <testcase classname="plugin 测试 autoInit 功能" name="plugin 测试 autoInit 功能" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 插件不会重复 init，除非强制重新 init" name="plugin 测试 插件不会重复 init，除非强制重新 init" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 默认情况不允许重复注册" name="plugin 测试 默认情况不允许重复注册" time="0.02">
+    </testcase>
+    <testcase classname="plugin 测试 插件增加 override 参数时可以重复注册" name="plugin 测试 插件增加 override 参数时可以重复注册" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 插件增加 override 参数时可以重复注册, 被覆盖的如果已初始化，会被销毁" name="plugin 测试 插件增加 override 参数时可以重复注册, 被覆盖的如果已初始化，会被销毁" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 内部事件机制" name="plugin 测试 内部事件机制" time="0.002">
+    </testcase>
+    <testcase classname="plugin 测试 dispose 方法" name="plugin 测试 dispose 方法" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 getAll 方法" name="plugin 测试 getAll 方法" time="0">
+    </testcase>
+    <testcase classname="plugin 测试 getPluginPreference 方法 - null" name="plugin 测试 getPluginPreference 方法 - null" time="0.001">
+    </testcase>
+    <testcase classname="plugin 测试 getPluginPreference 方法" name="plugin 测试 getPluginPreference 方法" time="0">
+    </testcase>
+    <testcase classname="plugin 测试 注册插件，调用插件 init 方法并传入 preference，可以成功获取" name="plugin 测试 注册插件，调用插件 init 方法并传入 preference，可以成功获取" time="0.005">
+    </testcase>
+    <testcase classname="plugin 测试 注册插件，没有填写 pluginName，默认值为 anonymous" name="plugin 测试 注册插件，没有填写 pluginName，默认值为 anonymous" time="0">
+    </testcase>
+    <testcase classname="plugin 测试 自定义/扩展 plugin context" name="plugin 测试 自定义/扩展 plugin context" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Prop 类测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="9.929" tests="25">
+    <testcase classname="Prop 类测试 基础类型 consturctor / getProps / getNode" name="Prop 类测试 基础类型 consturctor / getProps / getNode" time="0.004">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 misc" name="Prop 类测试 基础类型 misc" time="0.007">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 getValue / getAsString / setValue" name="Prop 类测试 基础类型 getValue / getAsString / setValue" time="0.003">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 code" name="Prop 类测试 基础类型 code" time="0.006">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 export" name="Prop 类测试 基础类型 export" time="0.062">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 compare" name="Prop 类测试 基础类型 compare" time="0.006">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 isVirtual" name="Prop 类测试 基础类型 isVirtual" time="0.013">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 purge" name="Prop 类测试 基础类型 purge" time="0.002">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 slot" name="Prop 类测试 基础类型 slot" time="0.005">
+    </testcase>
+    <testcase classname="Prop 类测试 基础类型 迭代器 / map / forEach" name="Prop 类测试 基础类型 迭代器 / map / forEach" time="0.014">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) items / get" name="Prop 类测试 复杂类型 items(map 类型) items / get" time="0.007">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) export" name="Prop 类测试 复杂类型 items(map 类型) export" time="0.024">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) compare" name="Prop 类测试 复杂类型 items(map 类型) compare" time="0.004">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) has / add / delete / deleteKey / remove" name="Prop 类测试 复杂类型 items(map 类型) has / add / delete / deleteKey / remove" time="0.004">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) set" name="Prop 类测试 复杂类型 items(map 类型) set" time="0.007">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) 迭代器 / map / forEach" name="Prop 类测试 复杂类型 items(map 类型) 迭代器 / map / forEach" time="0.003">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(map 类型) dispose" name="Prop 类测试 复杂类型 items(map 类型) dispose" time="0.016">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) items / get" name="Prop 类测试 复杂类型 items(list 类型) items / get" time="0.004">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) export" name="Prop 类测试 复杂类型 items(list 类型) export" time="0.002">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) compare" name="Prop 类测试 复杂类型 items(list 类型) compare" time="0.003">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) set" name="Prop 类测试 复杂类型 items(list 类型) set" time="0.008">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) should return undefined when all items are undefined" name="Prop 类测试 复杂类型 items(list 类型) should return undefined when all items are undefined" time="0.001">
+    </testcase>
+    <testcase classname="Prop 类测试 复杂类型 items(list 类型) 迭代器 / map / forEach" name="Prop 类测试 复杂类型 items(list 类型) 迭代器 / map / forEach" time="0.005">
+    </testcase>
+    <testcase classname="其他导出函数 isProp" name="其他导出函数 isProp" time="0">
+    </testcase>
+    <testcase classname="其他导出函数 isValidArrayIndex" name="其他导出函数 isValidArrayIndex" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="schema 生成节点模型测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="12.96" tests="7">
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 读取普通属性，string | number | object" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 读取普通属性，string | number | object" time="0.762">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Node 实例接口" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Node 实例接口" time="0.651">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Props 实例接口" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Props 实例接口" time="0.394">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Prop 实例接口" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number | object，使用 Prop 实例接口" time="0.321">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，正常生成节点模型" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，正常生成节点模型" time="0.247">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，关闭 slot" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，关闭 slot" time="0.292">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，同名覆盖 slot" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 修改 slot 属性，初始存在 slot 属性名，同名覆盖 slot" time="0.45">
+    </testcase>
+  </testsuite>
+  <testsuite name="选择区测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="14.024" tests="10">
+    <testcase classname="选择区测试 常规方法" name="选择区测试 常规方法" time="0.757">
+    </testcase>
+    <testcase classname="选择区测试 add 方法" name="选择区测试 add 方法" time="0.593">
+    </testcase>
+    <testcase classname="选择区测试 dispose 方法" name="选择区测试 dispose 方法" time="0.361">
+    </testcase>
+    <testcase classname="选择区测试 dispose 方法 - 选中的节点没有被删除的" name="选择区测试 dispose 方法 - 选中的节点没有被删除的" time="0.445">
+    </testcase>
+    <testcase classname="选择区测试 containsNode 方法" name="选择区测试 containsNode 方法" time="0.215">
+    </testcase>
+    <testcase classname="选择区测试 containsNode 方法 - excludeRoot: true" name="选择区测试 containsNode 方法 - excludeRoot: true" time="0.25">
+    </testcase>
+    <testcase classname="选择区测试 containsNode 方法 - excludeRoot: true" name="选择区测试 containsNode 方法 - excludeRoot: true" time="0.312">
+    </testcase>
+    <testcase classname="选择区测试 getNodes" name="选择区测试 getNodes" time="0.41">
+    </testcase>
+    <testcase classname="选择区测试 getTopNodes - BeforeOrAfter" name="选择区测试 getTopNodes - BeforeOrAfter" time="0.404">
+    </testcase>
+    <testcase classname="选择区测试 getTopNodes" name="选择区测试 getTopNodes" time="0.741">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dragon 测试" errors="0" failures="0" skipped="2" timestamp="2022-09-14T16:17:26" time="15.602" tests="17">
+    <testcase classname="Dragon 测试 drag NodeData" name="Dragon 测试 drag NodeData" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="Dragon 测试 drag Node" name="Dragon 测试 drag Node" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Dragon 测试 mouse NodeData" name="Dragon 测试 mouse NodeData" time="0.587">
+    </testcase>
+    <testcase classname="Dragon 测试 mouse Node" name="Dragon 测试 mouse Node" time="0.715">
+    </testcase>
+    <testcase classname="Dragon 测试 mouse Node &amp; esc" name="Dragon 测试 mouse Node &amp; esc" time="0.548">
+    </testcase>
+    <testcase classname="Dragon 测试 mouse Node &amp; copy" name="Dragon 测试 mouse Node &amp; copy" time="0.799">
+    </testcase>
+    <testcase classname="Dragon 测试 from" name="Dragon 测试 from" time="0.29">
+    </testcase>
+    <testcase classname="Dragon 测试 addSensor / removeSensor" name="Dragon 测试 addSensor / removeSensor" time="0.298">
+    </testcase>
+    <testcase classname="Dragon 测试 has sensor" name="Dragon 测试 has sensor" time="0.304">
+    </testcase>
+    <testcase classname="导出的其他函数 isDragNodeObject" name="导出的其他函数 isDragNodeObject" time="0">
+    </testcase>
+    <testcase classname="导出的其他函数 isDragNodeDataObject" name="导出的其他函数 isDragNodeDataObject" time="0.001">
+    </testcase>
+    <testcase classname="导出的其他函数 isDragAnyObject" name="导出的其他函数 isDragAnyObject" time="0">
+    </testcase>
+    <testcase classname="导出的其他函数 isLocateEvent" name="导出的其他函数 isLocateEvent" time="0.001">
+    </testcase>
+    <testcase classname="导出的其他函数 isShaken" name="导出的其他函数 isShaken" time="0.001">
+    </testcase>
+    <testcase classname="导出的其他函数 setShaken" name="导出的其他函数 setShaken" time="0.001">
+    </testcase>
+    <testcase classname="导出的其他函数 isInvalidPoint" name="导出的其他函数 isInvalidPoint" time="0">
+    </testcase>
+    <testcase classname="导出的其他函数 isSameAs" name="导出的其他函数 isSameAs" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="document-model 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:37" time="6.991" tests="18">
+    <testcase classname="document-model 测试 empty schema" name="document-model 测试 empty schema" time="0.007">
+    </testcase>
+    <testcase classname="document-model 测试 各种方法测试" name="document-model 测试 各种方法测试" time="0.632">
+    </testcase>
+    <testcase classname="document-model 测试 focusNode - using drillDown" name="document-model 测试 focusNode - using drillDown" time="0.499">
+    </testcase>
+    <testcase classname="document-model 测试 focusNode - using drillDown &amp; import" name="document-model 测试 focusNode - using drillDown &amp; import" time="1.246">
+    </testcase>
+    <testcase classname="document-model 测试 focusNode - using focusNodeSelector" name="document-model 测试 focusNode - using focusNodeSelector" time="0.234">
+    </testcase>
+    <testcase classname="document-model 测试 getNodeCount" name="document-model 测试 getNodeCount" time="0.003">
+    </testcase>
+    <testcase classname="document-model 测试 getNodeSchema" name="document-model 测试 getNodeSchema" time="0.247">
+    </testcase>
+    <testcase classname="document-model 测试 export - with __isTopFixed__" name="document-model 测试 export - with __isTopFixed__" time="0.25">
+    </testcase>
+    <testcase classname="document-model 测试 createNode same id &amp;&amp; componentName" name="document-model 测试 createNode same id &amp;&amp; componentName" time="0.34">
+    </testcase>
+    <testcase classname="document-model 测试 createNode same id &amp;&amp; different componentName" name="document-model 测试 createNode same id &amp;&amp; different componentName" time="0.298">
+    </testcase>
+    <testcase classname="document-model 测试 setSuspense" name="document-model 测试 setSuspense" time="0.339">
+    </testcase>
+    <testcase classname="document-model 测试 registerAddon / getAddonData / exportAddonData" name="document-model 测试 registerAddon / getAddonData / exportAddonData" time="0.228">
+    </testcase>
+    <testcase classname="document-model 测试 checkNesting / checkDropTarget / checkNestingUp / checkNestingDown" name="document-model 测试 checkNesting / checkDropTarget / checkNestingUp / checkNestingDown" time="0.426">
+    </testcase>
+    <testcase classname="document-model 测试 getComponentsMap" name="document-model 测试 getComponentsMap" time="0.305">
+    </testcase>
+    <testcase classname="document-model 测试 acceptRootNodeVisitor / getRootNodeVisitor" name="document-model 测试 acceptRootNodeVisitor / getRootNodeVisitor" time="0.245">
+    </testcase>
+    <testcase classname="document-model 测试 deprecated methods" name="document-model 测试 deprecated methods" time="0.217">
+    </testcase>
+    <testcase classname=" isDocumentModel" name=" isDocumentModel" time="0">
+    </testcase>
+    <testcase classname=" isPageSchema" name=" isPageSchema" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="schema 生成节点模型测试" errors="0" failures="0" skipped="3" timestamp="2022-09-14T16:17:26" time="18.688" tests="18">
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出" time="0.814">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点深度" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点深度" time="0.493">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点父子、兄弟相关方法" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点父子、兄弟相关方法" time="0.372">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点新建、删除等事件" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点新建、删除等事件" time="0.338">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点插入等方法" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点插入等方法" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点其他方法" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，节点其他方法" time="0.238">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，不指定 index" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，不指定 index" time="0.623">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，指定 index: 0" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，指定 index: 0" time="0.837">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，指定 index: 1" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，指定 index: 1" time="0.914">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，有 children" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，有 children" time="0.479">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，id 与现有 schema 里的 id 重复" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，id 与现有 schema 里的 id 重复" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，id 与现有 schema 里的 id 重复，但关闭了 id 检测器" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景一：插入 NodeSchema，id 与现有 schema 里的 id 重复，但关闭了 id 检测器" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景二：插入 Node 实例" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景二：插入 Node 实例" time="0.592">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景三：插入 JSExpression" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景三：插入 JSExpression" time="0.837">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景四：插入 string" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNode） 场景四：插入 string" time="0.59">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNodes） 场景一：插入 NodeSchema，指定 index" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNodes） 场景一：插入 NodeSchema，指定 index" time="0.523">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNodes） 场景二：插入 Node 实例，指定 index" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 节点新增（insertNodes） 场景二：插入 Node 实例，指定 index" time="0.448">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 基本的 slot 创建" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 基本的 slot 创建" time="0.255">
+    </testcase>
+  </testsuite>
+  <testsuite name="Designer 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="19" tests="17">
+    <testcase classname="Designer 测试 onDragstart / onDrag / onDragend DragObjectType.Node" name="Designer 测试 onDragstart / onDrag / onDragend DragObjectType.Node" time="0.762">
+    </testcase>
+    <testcase classname="Designer 测试 onDragstart / onDrag / onDragend DragObjectType.NodeData" name="Designer 测试 onDragstart / onDrag / onDragend DragObjectType.NodeData" time="0.588">
+    </testcase>
+    <testcase classname="Designer 测试 addPropsReducer / transformProps" name="Designer 测试 addPropsReducer / transformProps" time="0.827">
+    </testcase>
+    <testcase classname="Designer 测试 setProps" name="Designer 测试 setProps" time="0.325">
+    </testcase>
+    <testcase classname="Designer 测试 getSuitableInsertion 没有 currentDocument" name="Designer 测试 getSuitableInsertion 没有 currentDocument" time="0.229">
+    </testcase>
+    <testcase classname="Designer 测试 getSuitableInsertion 有选中节点，isContainer &amp;&amp; 允许放子节点" name="Designer 测试 getSuitableInsertion 有选中节点，isContainer &amp;&amp; 允许放子节点" time="0.271">
+    </testcase>
+    <testcase classname="Designer 测试 getSuitableInsertion 有选中节点，不是 isContainer" name="Designer 测试 getSuitableInsertion 有选中节点，不是 isContainer" time="0.333">
+    </testcase>
+    <testcase classname="Designer 测试 getSuitableInsertion 无选中节点" name="Designer 测试 getSuitableInsertion 无选中节点" time="0.356">
+    </testcase>
+    <testcase classname="Designer 测试 getComponentMetasMap" name="Designer 测试 getComponentMetasMap" time="0.489">
+    </testcase>
+    <testcase classname="Designer 测试 refreshComponentMetasMap" name="Designer 测试 refreshComponentMetasMap" time="0.384">
+    </testcase>
+    <testcase classname="Designer 测试 loadIncrementalAssets components &amp;&amp; packages" name="Designer 测试 loadIncrementalAssets components &amp;&amp; packages" time="0.34">
+    </testcase>
+    <testcase classname="Designer 测试 loadIncrementalAssets no components &amp;&amp; packages" name="Designer 测试 loadIncrementalAssets no components &amp;&amp; packages" time="0.257">
+    </testcase>
+    <testcase classname="Designer 测试 createLocation / clearLocation" name="Designer 测试 createLocation / clearLocation" time="0.292">
+    </testcase>
+    <testcase classname="Designer 测试 autorun" name="Designer 测试 autorun" time="0.341">
+    </testcase>
+    <testcase classname="Designer 测试 suspensed" name="Designer 测试 suspensed" time="0.141">
+    </testcase>
+    <testcase classname="Designer 测试 schema" name="Designer 测试 schema" time="0.225">
+    </testcase>
+    <testcase classname="Designer 测试 createOffsetObserver / clearOobxList / touchOffsetObserver" name="Designer 测试 createOffsetObserver / clearOobxList / touchOffsetObserver" time="0.3">
+    </testcase>
+  </testsuite>
+  <testsuite name="NodeChildren 方法测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:37" time="8.569" tests="19">
+    <testcase classname="NodeChildren 方法测试 isEmpty / notEmpty" name="NodeChildren 方法测试 isEmpty / notEmpty" time="0.476">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 export" name="NodeChildren 方法测试 export" time="0.582">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 export - Leaf" name="NodeChildren 方法测试 export - Leaf" time="0.415">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 import" name="NodeChildren 方法测试 import" time="0.874">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 delete" name="NodeChildren 方法测试 delete" time="0.396">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 delete - 插入已有的节点" name="NodeChildren 方法测试 delete - 插入已有的节点" time="0.239">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 purge / for of" name="NodeChildren 方法测试 purge / for of" time="0.309">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 splice" name="NodeChildren 方法测试 splice" time="0.341">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 map" name="NodeChildren 方法测试 map" time="0.315">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 forEach" name="NodeChildren 方法测试 forEach" time="0.412">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 some" name="NodeChildren 方法测试 some" time="0.418">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 every" name="NodeChildren 方法测试 every" time="0.35">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 filter" name="NodeChildren 方法测试 filter" time="0.258">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 find" name="NodeChildren 方法测试 find" time="0.217">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 concat" name="NodeChildren 方法测试 concat" time="0.274">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 reduce" name="NodeChildren 方法测试 reduce" time="0.225">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 mergeChildren" name="NodeChildren 方法测试 mergeChildren" time="0.265">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 insert / onInsert" name="NodeChildren 方法测试 insert / onInsert" time="0.304">
+    </testcase>
+    <testcase classname="NodeChildren 方法测试 reportModified" name="NodeChildren 方法测试 reportModified" time="0.339">
+    </testcase>
+  </testsuite>
+  <testsuite name="Session" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:41" time="5.423" tests="5">
+    <testcase classname="Session constructor" name="Session constructor" time="0.001">
+    </testcase>
+    <testcase classname="Session log()" name="Session log()" time="0.001">
+    </testcase>
+    <testcase classname="Session end()" name="Session end()" time="0.002">
+    </testcase>
+    <testcase classname="Session timeGap" name="Session timeGap" time="1.205">
+    </testcase>
+    <testcase classname="Session custom timeGap" name="Session custom timeGap" time="2.203">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:42" time="4.829" tests="4">
+    <testcase classname=" ResourceConsumer 测试，先消费再监听" name=" ResourceConsumer 测试，先消费再监听" time="1.004">
+    </testcase>
+    <testcase classname=" ResourceConsumer 测试，先消费再监听，isSimulatorRenderer" name=" ResourceConsumer 测试，先消费再监听，isSimulatorRenderer" time="1.003">
+    </testcase>
+    <testcase classname=" ResourceConsumer 测试，先消费再监听，isSimulatorRenderer，没有 consume" name=" ResourceConsumer 测试，先消费再监听，isSimulatorRenderer，没有 consume" time="0.001">
+    </testcase>
+    <testcase classname=" ResourceConsumer 测试，先监听再消费" name=" ResourceConsumer 测试，先监听再消费" time="1.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="History" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="20.66" tests="9">
+    <testcase classname="History data function &amp; records" name="History data function &amp; records" time="2.435">
+    </testcase>
+    <testcase classname="History isSavePoint &amp; savePoint" name="History isSavePoint &amp; savePoint" time="1.204">
+    </testcase>
+    <testcase classname="History go &amp; forward &amp; back &amp; onCursor" name="History go &amp; forward &amp; back &amp; onCursor" time="3.618">
+    </testcase>
+    <testcase classname="History go() - edge case of cursor" name="History go() - edge case of cursor" time="2.403">
+    </testcase>
+    <testcase classname="History destroy()" name="History destroy()" time="0.002">
+    </testcase>
+    <testcase classname="History internalToShellHistory()" name="History internalToShellHistory()" time="0.001">
+    </testcase>
+    <testcase classname="History sleep &amp; wakeup" name="History sleep &amp; wakeup" time="1.201">
+    </testcase>
+    <testcase classname="History - errors no editor" name="History - errors no editor" time="0.001">
+    </testcase>
+    <testcase classname="History - errors no session" name="History - errors no session" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Host 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="20.467" tests="22">
+    <testcase classname="Host 测试 基础方法测试 setProps / get / set" name="Host 测试 基础方法测试 setProps / get / set" time="0.798">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 connect" name="Host 测试 基础方法测试 connect" time="0.698">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 mountViewport" name="Host 测试 基础方法测试 mountViewport" time="0.808">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 autorun" name="Host 测试 基础方法测试 autorun" time="0.278">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 purge" name="Host 测试 基础方法测试 purge" time="0.249">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 isEnter" name="Host 测试 基础方法测试 isEnter" time="0.249">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 fixEvent" name="Host 测试 基础方法测试 fixEvent" time="0.313">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 findDOMNodes" name="Host 测试 基础方法测试 findDOMNodes" time="0.391">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 getClosestNodeInstance" name="Host 测试 基础方法测试 getClosestNodeInstance" time="0.565">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 getNodeInstanceFromElement" name="Host 测试 基础方法测试 getNodeInstanceFromElement" time="0.401">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 getDropContainer" name="Host 测试 基础方法测试 getDropContainer" time="0.274">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 getComponentInstances" name="Host 测试 基础方法测试 getComponentInstances" time="0.238">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 setNativeSelection / setDraggingState / setCopyState / clearState" name="Host 测试 基础方法测试 setNativeSelection / setDraggingState / setCopyState / clearState" time="0.301">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 sensorAvailable / deactiveSensor" name="Host 测试 基础方法测试 sensorAvailable / deactiveSensor" time="0.265">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 getComponent" name="Host 测试 基础方法测试 getComponent" time="0.227">
+    </testcase>
+    <testcase classname="Host 测试 基础方法测试 setInstance" name="Host 测试 基础方法测试 setInstance" time="0.233">
+    </testcase>
+    <testcase classname="Host 测试 locate 方法 locate，没有 nodes" name="Host 测试 locate 方法 locate，没有 nodes" time="0.346">
+    </testcase>
+    <testcase classname="Host 测试 locate 方法 locate，没有 document" name="Host 测试 locate 方法 locate，没有 document" time="0.32">
+    </testcase>
+    <testcase classname="Host 测试 locate 方法 locate" name="Host 测试 locate 方法 locate" time="0.223">
+    </testcase>
+    <testcase classname="Host 测试 事件测试 setupDragAndClick" name="Host 测试 事件测试 setupDragAndClick" time="0.185">
+    </testcase>
+    <testcase classname="Host 测试 事件测试 setupContextMenu" name="Host 测试 事件测试 setupContextMenu" time="0.264">
+    </testcase>
+    <testcase classname="Host 测试 事件测试" name="Host 测试 事件测试" time="0.38">
+    </testcase>
+  </testsuite>
+  <testsuite name="schema 生成节点模型测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:39" time="7.366" tests="13">
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出，初始化传入 schema" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出，初始化传入 schema" time="0.926">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ onSimulatorReady works" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ onSimulatorReady works" time="0.506">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ open doc when doc is blank" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ open doc when doc is blank" time="0.004">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true" time="0.325">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true, and config contains layout.props.tabBar.item" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true, and config contains layout.props.tabBar.item" time="0.581">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ load schema with autoOpen === true" time="0.247">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ setSchema works" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ setSchema works" time="0.304">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出，project.open 传入 schema" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ 基本的节点模型初始化，模型导出，project.open 传入 schema" time="0.337">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ project 卸载所有 document - unload()" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ project 卸载所有 document - unload()" time="0.331">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ project 卸载指定 document - removeDocument()" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ project 卸载指定 document - removeDocument()" time="0.185">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ get unknown document" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ get unknown document" time="0.19">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ get set i18n works" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ❌ get set i18n works" time="0.299">
+    </testcase>
+    <testcase classname="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 基本的节点模型初始化，模型导出，初始化传入 schema" name="schema 生成节点模型测试 block ❌ | component ❌ | slot ✅ 基本的节点模型初始化，模型导出，初始化传入 schema" time="0.67">
+    </testcase>
+  </testsuite>
+  <testsuite name="setting-field 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:47" time="1.889" tests="3">
+    <testcase classname="setting-field 测试 纯粹的 UnitTest 常规方法" name="setting-field 测试 纯粹的 UnitTest 常规方法" time="0.113">
+    </testcase>
+    <testcase classname="setting-field 测试 纯粹的 UnitTest setValue / getValue / setHotValue / getHotValue" name="setting-field 测试 纯粹的 UnitTest setValue / getValue / setHotValue / getHotValue" time="0.079">
+    </testcase>
+    <testcase classname="setting-field 测试 纯粹的 UnitTest onEffect" name="setting-field 测试 纯粹的 UnitTest onEffect" time="0.14">
+    </testcase>
+  </testsuite>
+  <testsuite name="DragResizeEngine 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:44" time="5.013" tests="2">
+    <testcase classname="DragResizeEngine 测试 from" name="DragResizeEngine 测试 from" time="0.742">
+    </testcase>
+    <testcase classname="DragResizeEngine 测试 has sensor" name="DragResizeEngine 测试 has sensor" time="0.424">
+    </testcase>
+  </testsuite>
+  <testsuite name="Viewport 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:47" time="2.306" tests="4">
+    <testcase classname="Viewport 测试 基本函数测试" name="Viewport 测试 基本函数测试" time="0.208">
+    </testcase>
+    <testcase classname="Viewport 测试 scale" name="Viewport 测试 scale" time="0.072">
+    </testcase>
+    <testcase classname="Viewport 测试 setScrollTarget / scrollTarget / scrolling" name="Viewport 测试 setScrollTarget / scrollTarget / scrolling" time="0.102">
+    </testcase>
+    <testcase classname="Viewport 测试 toGlobalPoint / toLocalPoint" name="Viewport 测试 toGlobalPoint / toLocalPoint" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModalNodesManager 方法测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:45" time="3.795" tests="5">
+    <testcase classname="ModalNodesManager 方法测试 getModalNodes / getVisibleModalNode" name="ModalNodesManager 方法测试 getModalNodes / getVisibleModalNode" time="0.926">
+    </testcase>
+    <testcase classname="ModalNodesManager 方法测试 setVisible / setInvisible / onVisibleChange" name="ModalNodesManager 方法测试 setVisible / setInvisible / onVisibleChange" time="0.444">
+    </testcase>
+    <testcase classname="ModalNodesManager 方法测试 addNode / removeNode" name="ModalNodesManager 方法测试 addNode / removeNode" time="0.521">
+    </testcase>
+    <testcase classname="其他方法 getModalNodes - null" name="其他方法 getModalNodes - null" time="0.247">
+    </testcase>
+    <testcase classname="其他方法 getModalNodes - no children" name="其他方法 getModalNodes - no children" time="0.317">
+    </testcase>
+  </testsuite>
+  <testsuite name="节点模型删除测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:45" time="4.05" tests="4">
+    <testcase classname="节点模型删除测试 删除叶子节点" name="节点模型删除测试 删除叶子节点" time="0.743">
+    </testcase>
+    <testcase classname="节点模型删除测试 删除叶子节点，带有 slot" name="节点模型删除测试 删除叶子节点，带有 slot" time="0.628">
+    </testcase>
+    <testcase classname="节点模型删除测试 删除分支节点" name="节点模型删除测试 删除分支节点" time="0.318">
+    </testcase>
+    <testcase classname="节点模型删除测试 删除分支节点，带有 slot" name="节点模型删除测试 删除分支节点，带有 slot" time="0.376">
+    </testcase>
+  </testsuite>
+  <testsuite name="Node 方法测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:47" time="2.656" tests="1">
+    <testcase classname="Node 方法测试 原始 prop 值是 variable 结构，通过一个 propsReducer 转成了 JSExpression 结构" name="Node 方法测试 原始 prop 值是 variable 结构，通过一个 propsReducer 转成了 JSExpression 结构" time="0.669">
+    </testcase>
+  </testsuite>
+  <testsuite name="error scenarios" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:26" time="24.16" tests="19">
+    <testcase classname="error scenarios edtior not registered" name="error scenarios edtior not registered" time="0.029">
+    </testcase>
+    <testcase classname="快捷键测试 right" name="快捷键测试 right" time="0.755">
+    </testcase>
+    <testcase classname="快捷键测试 left" name="快捷键测试 left" time="0.48">
+    </testcase>
+    <testcase classname="快捷键测试 down" name="快捷键测试 down" time="0.342">
+    </testcase>
+    <testcase classname="快捷键测试 up" name="快捷键测试 up" time="0.232">
+    </testcase>
+    <testcase classname="快捷键测试 option + right" name="快捷键测试 option + right" time="0.334">
+    </testcase>
+    <testcase classname="快捷键测试 option + left" name="快捷键测试 option + left" time="0.375">
+    </testcase>
+    <testcase classname="快捷键测试 option + up" name="快捷键测试 option + up" time="0.327">
+    </testcase>
+    <testcase classname="快捷键测试 option + up" name="快捷键测试 option + up" time="0.243">
+    </testcase>
+    <testcase classname="快捷键测试 command + z" name="快捷键测试 command + z" time="2.862">
+    </testcase>
+    <testcase classname="快捷键测试 command + y" name="快捷键测试 command + y" time="3.674">
+    </testcase>
+    <testcase classname="快捷键测试 command + c" name="快捷键测试 command + c" time="0.476">
+    </testcase>
+    <testcase classname="快捷键测试 command + v" name="快捷键测试 command + v" time="1.377">
+    </testcase>
+    <testcase classname="快捷键测试 escape" name="快捷键测试 escape" time="0.083">
+    </testcase>
+    <testcase classname="快捷键测试 delete" name="快捷键测试 delete" time="0.363">
+    </testcase>
+    <testcase classname="快捷键测试 非正常分支 liveEditing mode" name="快捷键测试 非正常分支 liveEditing mode" time="0.252">
+    </testcase>
+    <testcase classname="快捷键测试 非正常分支 isFormEvent: true" name="快捷键测试 非正常分支 isFormEvent: true" time="0.233">
+    </testcase>
+    <testcase classname="快捷键测试 非正常分支 doc is null" name="快捷键测试 非正常分支 doc is null" time="0.247">
+    </testcase>
+    <testcase classname="快捷键测试 非正常分支 selected is []" name="快捷键测试 非正常分支 selected is []" time="0.391">
+    </testcase>
+  </testsuite>
+  <testsuite name="host-view 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:47" time="3.46" tests="1">
+    <testcase classname="host-view 测试 host-view" name="host-view 测试 host-view" time="0.112">
+    </testcase>
+  </testsuite>
+  <testsuite name="Project 方法测试" errors="0" failures="0" skipped="1" timestamp="2022-09-14T16:17:45" time="5.352" tests="9">
+    <testcase classname="Project 方法测试 simulator" name="Project 方法测试 simulator" time="0.985">
+    </testcase>
+    <testcase classname="Project 方法测试 config / get / set" name="Project 方法测试 config / get / set" time="0.53">
+    </testcase>
+    <testcase classname="Project 方法测试 load" name="Project 方法测试 load" time="0.444">
+    </testcase>
+    <testcase classname="Project 方法测试 setSchema" name="Project 方法测试 setSchema" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Project 方法测试 open / getDocument / checkExclusive" name="Project 方法测试 open / getDocument / checkExclusive" time="0.345">
+    </testcase>
+    <testcase classname="Project 方法测试 removeDocument" name="Project 方法测试 removeDocument" time="0.271">
+    </testcase>
+    <testcase classname="Project 方法测试 simulatorProps" name="Project 方法测试 simulatorProps" time="0.275">
+    </testcase>
+    <testcase classname="Project 方法测试 onCurrentDocumentChange" name="Project 方法测试 onCurrentDocumentChange" time="0.427">
+    </testcase>
+    <testcase classname="Project 方法测试 setRendererReady / onRendererReady" name="Project 方法测试 setRendererReady / onRendererReady" time="0.493">
+    </testcase>
+  </testsuite>
+  <testsuite name="Scroller 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:46" time="4.172" tests="5">
+    <testcase classname="Scroller 测试 ScrollTarget 测试 constructor" name="Scroller 测试 ScrollTarget 测试 constructor" time="0.73">
+    </testcase>
+    <testcase classname="Scroller 测试 Scroller 测试 scrollTarget: ScrollTarget" name="Scroller 测试 Scroller 测试 scrollTarget: ScrollTarget" time="0.408">
+    </testcase>
+    <testcase classname="Scroller 测试 Scroller 测试 scrollTarget: ScrollTarget, same left / top" name="Scroller 测试 Scroller 测试 scrollTarget: ScrollTarget, same left / top" time="0.364">
+    </testcase>
+    <testcase classname="Scroller 测试 Scroller 测试 scrollTarget: Element" name="Scroller 测试 Scroller 测试 scrollTarget: Element" time="0.64">
+    </testcase>
+    <testcase classname="Scroller 测试 Scroller 测试 scrollTarget: null" name="Scroller 测试 Scroller 测试 scrollTarget: null" time="0.41">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:50" time="1.3" tests="1">
+    <testcase classname=" Detecting 测试" name=" Detecting 测试" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Node 方法测试" errors="0" failures="0" skipped="1" timestamp="2022-09-14T16:17:26" time="24.73" tests="43">
+    <testcase classname="Node 方法测试 condition group" name="Node 方法测试 condition group" time="0.705">
+    </testcase>
+    <testcase classname="Node 方法测试 getExtraProp / setExtraProp" name="Node 方法测试 getExtraProp / setExtraProp" time="0.582">
+    </testcase>
+    <testcase classname="Node 方法测试 import(leaf)" name="Node 方法测试 import(leaf)" time="0.415">
+    </testcase>
+    <testcase classname="Node 方法测试 hasCondition" name="Node 方法测试 hasCondition" time="0.417">
+    </testcase>
+    <testcase classname="Node 方法测试 hasLoop" name="Node 方法测试 hasLoop" time="0.257">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace root，子节点中有容器节点" name="Node 方法测试 getSuitablePlace root，子节点中有容器节点" time="0.323">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace root，直接子节点中无容器节点，自身支持放入子节点" name="Node 方法测试 getSuitablePlace root，直接子节点中无容器节点，自身支持放入子节点" time="0.389">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace root，子节点中无容器节点，自己也不支持放入子节点" name="Node 方法测试 getSuitablePlace root，子节点中无容器节点，自己也不支持放入子节点" time="0.328">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace 放入模态节点" name="Node 方法测试 getSuitablePlace 放入模态节点" time="0.587">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace 包含 focusNode" name="Node 方法测试 getSuitablePlace 包含 focusNode" time="0.569">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace 非 root 节点，不能放入子节点" name="Node 方法测试 getSuitablePlace 非 root 节点，不能放入子节点" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace 非 root 节点，能放入子节点" name="Node 方法测试 getSuitablePlace 非 root 节点，能放入子节点" time="0.229">
+    </testcase>
+    <testcase classname="Node 方法测试 getSuitablePlace null" name="Node 方法测试 getSuitablePlace null" time="0.255">
+    </testcase>
+    <testcase classname="Node 方法测试 removeChild / replaceWith / replaceChild" name="Node 方法测试 removeChild / replaceWith / replaceChild" time="0.282">
+    </testcase>
+    <testcase classname="Node 方法测试 schema" name="Node 方法测试 schema" time="0.347">
+    </testcase>
+    <testcase classname="Node 方法测试 插入相关方法 insertBefore / onChildrenChange" name="Node 方法测试 插入相关方法 insertBefore / onChildrenChange" time="0.364">
+    </testcase>
+    <testcase classname="Node 方法测试 插入相关方法 insertAfter / onChildrenChange" name="Node 方法测试 插入相关方法 insertAfter / onChildrenChange" time="0.536">
+    </testcase>
+    <testcase classname="Node 方法测试 setVisible / getVisible / onVisibleChange" name="Node 方法测试 setVisible / getVisible / onVisibleChange" time="0.435">
+    </testcase>
+    <testcase classname="Node 方法测试 RGL / getRGL" name="Node 方法测试 RGL / getRGL" time="0.258">
+    </testcase>
+    <testcase classname="Node 方法测试 onPropChange" name="Node 方法测试 onPropChange" time="0.241">
+    </testcase>
+    <testcase classname="Node 方法测试 addSlot / unlinkSlot / removeSlot" name="Node 方法测试 addSlot / unlinkSlot / removeSlot" time="0.269">
+    </testcase>
+    <testcase classname="Node 方法测试 setProps" name="Node 方法测试 setProps" time="0.262">
+    </testcase>
+    <testcase classname="Node 方法测试 advanced initials / autoruns" name="Node 方法测试 advanced initials / autoruns" time="0.193">
+    </testcase>
+    <testcase classname="Node 方法测试 isValidComponent" name="Node 方法测试 isValidComponent" time="0.218">
+    </testcase>
+    <testcase classname="Node 方法测试 title" name="Node 方法测试 title" time="0.246">
+    </testcase>
+    <testcase classname="Node 方法测试 isEmpty / getIndex / getIcon" name="Node 方法测试 isEmpty / getIndex / getIcon" time="0.267">
+    </testcase>
+    <testcase classname="Node 方法测试 schema / toData / export" name="Node 方法测试 schema / toData / export" time="0.276">
+    </testcase>
+    <testcase classname="Node 方法测试 internalSetParent / internalSetWillPurge" name="Node 方法测试 internalSetParent / internalSetWillPurge" time="0.24">
+    </testcase>
+    <testcase classname="Node 方法测试 prevSibling / nextSibling" name="Node 方法测试 prevSibling / nextSibling" time="0.15">
+    </testcase>
+    <testcase classname="Node 方法测试 toString" name="Node 方法测试 toString" time="0.238">
+    </testcase>
+    <testcase classname="Node 方法测试 lock" name="Node 方法测试 lock" time="0.385">
+    </testcase>
+    <testcase classname="Node 方法测试 didDropIn / didDropOut" name="Node 方法测试 didDropIn / didDropOut" time="0.489">
+    </testcase>
+    <testcase classname="Node 方法测试 hover" name="Node 方法测试 hover" time="0.346">
+    </testcase>
+    <testcase classname="Node 方法测试 getRect" name="Node 方法测试 getRect" time="0.373">
+    </testcase>
+    <testcase classname="Node 方法测试 isRootNode / isRoot / isNode" name="Node 方法测试 isRootNode / isRoot / isNode" time="0.278">
+    </testcase>
+    <testcase classname="Node 方法测试 contains / comparePosition" name="Node 方法测试 contains / comparePosition" time="0.244">
+    </testcase>
+    <testcase classname="Node 方法测试 getZLevelTop" name="Node 方法测试 getZLevelTop" time="0.545">
+    </testcase>
+    <testcase classname="Node 方法测试 propsData" name="Node 方法测试 propsData" time="0.202">
+    </testcase>
+    <testcase classname="Node 方法测试 deprecated methods setStatus / getStatus" name="Node 方法测试 deprecated methods setStatus / getStatus" time="0.179">
+    </testcase>
+    <testcase classname="Node 方法测试 deprecated methods getPage" name="Node 方法测试 deprecated methods getPage" time="0.254">
+    </testcase>
+    <testcase classname="Node 方法测试 deprecated methods getDOMNode" name="Node 方法测试 deprecated methods getDOMNode" time="0.383">
+    </testcase>
+    <testcase classname="Node 方法测试 deprecated methods registerAddon / getAddonData" name="Node 方法测试 deprecated methods registerAddon / getAddonData" time="0.486">
+    </testcase>
+    <testcase classname="Node 方法测试 deprecated methods getPrototype / setPrototype" name="Node 方法测试 deprecated methods getPrototype / setPrototype" time="0.415">
+    </testcase>
+  </testsuite>
+  <testsuite name="renderer 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.239" tests="1">
+    <testcase classname="renderer 测试 renderer" name="renderer 测试 renderer" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.179" tests="4">
+    <testcase classname=" isElementNode" name=" isElementNode" time="0.013">
+    </testcase>
+    <testcase classname="isDOMNodeVisible isDOMNodeVisible" name="isDOMNodeVisible isDOMNodeVisible" time="0.002">
+    </testcase>
+    <testcase classname=" normalizeTriggers" name=" normalizeTriggers" time="0">
+    </testcase>
+    <testcase classname=" makeEventsHandler" name=" makeEventsHandler" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="parseMetadata" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.84" tests="1">
+    <testcase classname="parseMetadata parseMetadata" name="parseMetadata parseMetadata" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="throttle" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.818" tests="1">
+    <testcase classname="throttle simple" name="throttle simple" time="0.604">
+    </testcase>
+  </testsuite>
+  <testsuite name="builtin-simulator/utils/path 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.518" tests="8">
+    <testcase classname="builtin-simulator/utils/path 测试 isPackagePath" name="builtin-simulator/utils/path 测试 isPackagePath" time="0.005">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 toTitleCase" name="builtin-simulator/utils/path 测试 toTitleCase" time="0.004">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 generateComponentName" name="builtin-simulator/utils/path 测试 generateComponentName" time="0.002">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 getNormalizedImportPath" name="builtin-simulator/utils/path 测试 getNormalizedImportPath" time="0.002">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 makeRelativePath" name="builtin-simulator/utils/path 测试 makeRelativePath" time="0.003">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 resolveAbsoluatePath" name="builtin-simulator/utils/path 测试 resolveAbsoluatePath" time="0.002">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 joinPath" name="builtin-simulator/utils/path 测试 joinPath" time="0">
+    </testcase>
+    <testcase classname="builtin-simulator/utils/path 测试 removeVersion" name="builtin-simulator/utils/path 测试 removeVersion" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="组件元数据处理" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:49" time="1.876" tests="19">
+    <testcase classname="组件元数据处理 构造函数" name="组件元数据处理 构造函数" time="0.017">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（title 是个普通对象）" name="组件元数据处理 构造函数 - 兼容场景（title 是个普通对象）" time="0.002">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（title fallback 到 componentName）" name="组件元数据处理 构造函数 - 兼容场景（title fallback 到 componentName）" time="0.001">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（configure 是个数组）" name="组件元数据处理 构造函数 - 兼容场景（configure 是个数组）" time="0">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（使用 experimental）" name="组件元数据处理 构造函数 - 兼容场景（使用 experimental）" time="0.001">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（没有 configure.component）" name="组件元数据处理 构造函数 - 兼容场景（没有 configure.component）" time="0">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（没有 configure）" name="组件元数据处理 构造函数 - 兼容场景（没有 configure）" time="0.001">
+    </testcase>
+    <testcase classname="组件元数据处理 构造函数 - 兼容场景（没有 npm）" name="组件元数据处理 构造函数 - 兼容场景（没有 npm）" time="0">
+    </testcase>
+    <testcase classname="组件元数据处理 availableActions" name="组件元数据处理 availableActions" time="0.003">
+    </testcase>
+    <testcase classname="组件元数据处理 availableActions - disableBehaviors: *" name="组件元数据处理 availableActions - disableBehaviors: *" time="0">
+    </testcase>
+    <testcase classname="组件元数据处理 availableActions - rootCompoment" name="组件元数据处理 availableActions - rootCompoment" time="0.001">
+    </testcase>
+    <testcase classname="组件元数据处理 checkNesting checkNestingUp" name="组件元数据处理 checkNesting checkNestingUp" time="0">
+    </testcase>
+    <testcase classname="组件元数据处理 checkNesting checkNestingDown" name="组件元数据处理 checkNesting checkNestingDown" time="0.005">
+    </testcase>
+    <testcase classname="组件元数据 transducers legacyIssues" name="组件元数据 transducers legacyIssues" time="0">
+    </testcase>
+    <testcase classname="帮助函数 ensureAList" name="帮助函数 ensureAList" time="0.001">
+    </testcase>
+    <testcase classname="帮助函数 buildFilter" name="帮助函数 buildFilter" time="0.001">
+    </testcase>
+    <testcase classname="帮助函数 registerMetadataTransducer" name="帮助函数 registerMetadataTransducer" time="0.001">
+    </testcase>
+    <testcase classname="帮助函数 modifyBuiltinComponentAction" name="帮助函数 modifyBuiltinComponentAction" time="0">
+    </testcase>
+    <testcase classname="transducers componentDefaults" name="transducers componentDefaults" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DropLocation 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.61" tests="13">
+    <testcase classname="DropLocation 测试 constructor" name="DropLocation 测试 constructor" time="0.002">
+    </testcase>
+    <testcase classname="DropLocation 测试 constructor, detail: undefined" name="DropLocation 测试 constructor, detail: undefined" time="0">
+    </testcase>
+    <testcase classname="DropLocation 测试 constructor, detail.type: Children, detail.index &lt;= 0" name="DropLocation 测试 constructor, detail.type: Children, detail.index &lt;= 0" time="0">
+    </testcase>
+    <testcase classname="DropLocation 测试 constructor, detail.type: Children, detail.index &gt; 0" name="DropLocation 测试 constructor, detail.type: Children, detail.index &gt; 0" time="0">
+    </testcase>
+    <testcase classname="DropLocation 测试 constructor, detail.type: Prop" name="DropLocation 测试 constructor, detail.type: Prop" time="0.001">
+    </testcase>
+    <testcase classname=" isLocationData" name=" isLocationData" time="0">
+    </testcase>
+    <testcase classname=" isLocationChildrenDetail" name=" isLocationChildrenDetail" time="0">
+    </testcase>
+    <testcase classname=" isRowContainer" name=" isRowContainer" time="0.003">
+    </testcase>
+    <testcase classname=" isChildInline" name=" isChildInline" time="0.001">
+    </testcase>
+    <testcase classname=" getRectTarget" name=" getRectTarget" time="0.001">
+    </testcase>
+    <testcase classname=" isVerticalContainer" name=" isVerticalContainer" time="0">
+    </testcase>
+    <testcase classname=" isVertical" name=" isVertical" time="0.003">
+    </testcase>
+    <testcase classname=" getWindow" name=" getWindow" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.071" tests="1">
+    <testcase classname=" invariant" name=" invariant" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="plugin utils 测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.199" tests="2">
+    <testcase classname="plugin utils 测试 isValidPreferenceKey" name="plugin utils 测试 isValidPreferenceKey" time="0.002">
+    </testcase>
+    <testcase classname="plugin utils 测试 filterValidOptions" name="plugin utils 测试 filterValidOptions" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Node 方法测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:50" time="1.613" tests="1">
+    <testcase classname="Node 方法测试 addBemTools / removeBemTools / getAllBemTools" name="Node 方法测试 addBemTools / removeBemTools / getAllBemTools" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:51" time="0.216" tests="2">
+    <testcase classname=" includeSlot" name=" includeSlot" time="0.003">
+    </testcase>
+    <testcase classname=" removeSlot" name=" removeSlot" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:50" time="1.433" tests="2">
+    <testcase classname=" ActiveTracker 测试，Node" name=" ActiveTracker 测试，Node" time="0.003">
+    </testcase>
+    <testcase classname=" ActiveTracker 测试，ActiveTarget" name=" ActiveTracker 测试，ActiveTarget" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:52" time="0.181" tests="2">
+    <testcase classname=" valueToSource" name=" valueToSource" time="0.006">
+    </testcase>
+    <testcase classname=" getSource" name=" getSource" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:52" time="0.193" tests="1">
+    <testcase classname=" isSimulatorHost" name=" isSimulatorHost" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="setting-prop-entry 测试" errors="0" failures="0" skipped="1" timestamp="2022-09-14T16:17:49" time="2.349" tests="8">
+    <testcase classname="setting-prop-entry 测试 纯粹的 UnitTest 常规方法" name="setting-prop-entry 测试 纯粹的 UnitTest 常规方法" time="0.127">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 纯粹的 UnitTest setValue / getValue / onValueChange" name="setting-prop-entry 测试 纯粹的 UnitTest setValue / getValue / onValueChange" time="0.118">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 纯粹的 UnitTest clearValue" name="setting-prop-entry 测试 纯粹的 UnitTest clearValue" time="0.059">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 纯粹的 UnitTest getVariableValue/ setUseVariable / isUseVariable / getMockOrValue" name="setting-prop-entry 测试 纯粹的 UnitTest getVariableValue/ setUseVariable / isUseVariable / getMockOrValue" time="0.143">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 node 构造函数生成 settingEntry 常规方法测试" name="setting-prop-entry 测试 node 构造函数生成 settingEntry 常规方法测试" time="0.059">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 node 构造函数生成 settingEntry setValue / getValue" name="setting-prop-entry 测试 node 构造函数生成 settingEntry setValue / getValue" time="0.05">
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 node 构造函数生成 settingEntry type: group 场景测试" name="setting-prop-entry 测试 node 构造函数生成 settingEntry type: group 场景测试" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="setting-prop-entry 测试 node 构造函数生成 settingEntry JSExpression 类型的 prop" name="setting-prop-entry 测试 node 构造函数生成 settingEntry JSExpression 类型的 prop" time="0.187">
+    </testcase>
+  </testsuite>
+  <testsuite name="setting-top-entry 测试" errors="0" failures="0" skipped="1" timestamp="2022-09-14T16:17:49" time="2.401" tests="8">
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry 常规方法测试" name="setting-top-entry 测试 node 构造函数生成 settingEntry 常规方法测试" time="0.11">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry onMetadataChange" name="setting-top-entry 测试 node 构造函数生成 settingEntry onMetadataChange" time="0.127">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry setupItems - customView" name="setting-top-entry 测试 node 构造函数生成 settingEntry setupItems - customView" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry 清理方法测试" name="setting-top-entry 测试 node 构造函数生成 settingEntry 清理方法测试" time="0.068">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry vision 兼容测试" name="setting-top-entry 测试 node 构造函数生成 settingEntry vision 兼容测试" time="0.075">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 node 构造函数生成 settingEntry 没有 node" name="setting-top-entry 测试 node 构造函数生成 settingEntry 没有 node" time="0.146">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 designer.createSettingEntry 生成 settingEntry（多 node 场景） 相同类型的 node" name="setting-top-entry 测试 designer.createSettingEntry 生成 settingEntry（多 node 场景） 相同类型的 node" time="0.131">
+    </testcase>
+    <testcase classname="setting-top-entry 测试 designer.createSettingEntry 生成 settingEntry（多 node 场景） 不同类型的 node" name="setting-top-entry 测试 designer.createSettingEntry 生成 settingEntry（多 node 场景） 不同类型的 node" time="0.056">
+    </testcase>
+  </testsuite>
+  <testsuite name="Props 类测试" errors="0" failures="0" skipped="0" timestamp="2022-09-14T16:17:50" time="1.746" tests="15">
+    <testcase classname="Props 类测试 getNode" name="Props 类测试 getNode" time="0.005">
+    </testcase>
+    <testcase classname="Props 类测试 items / get" name="Props 类测试 items / get" time="0.01">
+    </testcase>
+    <testcase classname="Props 类测试 export" name="Props 类测试 export" time="0.004">
+    </testcase>
+    <testcase classname="Props 类测试 export - remove undefined items" name="Props 类测试 export - remove undefined items" time="0.005">
+    </testcase>
+    <testcase classname="Props 类测试 import" name="Props 类测试 import" time="0.003">
+    </testcase>
+    <testcase classname="Props 类测试 merge" name="Props 类测试 merge" time="0.103">
+    </testcase>
+    <testcase classname="Props 类测试 has / add / delete / deleteKey / remove" name="Props 类测试 has / add / delete / deleteKey / remove" time="0.005">
+    </testcase>
+    <testcase classname="Props 类测试 迭代器 / map / forEach" name="Props 类测试 迭代器 / map / forEach" time="0.004">
+    </testcase>
+    <testcase classname="Props 类测试 purge" name="Props 类测试 purge" time="0.002">
+    </testcase>
+    <testcase classname="Props 类测试 empty items" name="Props 类测试 empty items" time="0.002">
+    </testcase>
+    <testcase classname="Props 类测试 list 类型 constructor" name="Props 类测试 list 类型 constructor" time="0.002">
+    </testcase>
+    <testcase classname="Props 类测试 list 类型 export" name="Props 类测试 list 类型 export" time="0.003">
+    </testcase>
+    <testcase classname="Props 类测试 list 类型 import" name="Props 类测试 list 类型 import" time="0.003">
+    </testcase>
+    <testcase classname="其他函数 getConvertedExtraKey" name="其他函数 getConvertedExtraKey" time="0">
+    </testcase>
+    <testcase classname="其他函数 getOriginalExtraKey" name="其他函数 getOriginalExtraKey" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="节点拖拽测试" errors="0" failures="0" skipped="1" timestamp="2022-09-14T16:17:52" time="0.606" tests="1">
+    <testcase classname="节点拖拽测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number" name="节点拖拽测试 block ❌ | component ❌ | slot ❌ 修改普通属性，string | number" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>
