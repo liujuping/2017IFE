@@ -1,20 +1,30 @@
-name: Make sure new PRs are sent to development
+name: Node CI
 
 on:
-  pull_request_target: # Please read https://securitylab.github.com/research/github-actions-preventing-pwn-requests/ before using
-    types: [opened, edited]
+ push:
+    branches:
+      - master
+ pull_request:
+    branches:
+      - master
 
 jobs:
-  check-branch:
+  upload-designer-codecov:
     runs-on: ubuntu-latest
+    # if: ${{ github.event.pull_request.head.repo.full_name == 'alibaba/lowcode-engine' }}
     steps:
-      - uses: Vankka/pr-target-branch-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
         with:
-          target: main
-          exclude: develop # Don't prevent going from development -> main
-          change-to: develop
-          comment: |
-              Your PR was set to target `main`, PRs should be target `develop`
-              The base branch of this PR has been automatically changed to `develop`, please check that there are no merge conflicts
+          node-version: '14'
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          # working-directory: packages/designer
+          files: ./clover.xml
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: true
+          verbose: true
